@@ -20,7 +20,7 @@ SET(CMAKE_SYSTEM_VERSION 1)
 CMAKE_FORCE_C_COMPILER(arm-unknown-eabi-gcc GNU)
 CMAKE_FORCE_CXX_COMPILER(arm-unknown-eabi-g++ GNU)
  
-find_program(LINKER arm-unknown-eabi-ld)
+find_program(LINKER arm-unknown-eabi-gcc)
 find_program(OBJCOPY arm-unknown-eabi-objcopy)
 find_program(OBJDUMP arm-unknown-eabi-objdump)
 SET(CMAKE_AR arm-unknown-eabi-ar)
